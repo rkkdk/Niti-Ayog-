@@ -1,0 +1,249 @@
+ <div class="combo-footer2">
+      <div class="footer2" style="width: 60%;">
+        <div class="footer-2-div" style="display: flex;">
+        <div class="footer2-part-1" style="width: 5%;">
+          <img src="initiative/niti-white-logo.jpg">
+        </div>
+        <div class="footer-2-part-2">
+          <div><h3>Important Links</h3></div>
+          <div class="footer2-part-2-1">
+          <div class="footer2-list-1">
+            <ul class="footer2-list">
+              <li><div class="list-arrow-div">></div><a href="">About US</a></li>
+              <li><div class="list-arrow-div">></div><a href="">Current Recruitments</a></li>
+              <li><div class="list-arrow-div">></div><a href="">vertical</a></li>
+              <li><div class="list-arrow-div">></div><a href="">Planning Commission Archive</a></li>
+              </ul>
+            </div>
+              <div class="footer2-list-1">            
+                  <ul class="footer2-list"><li><div class="list-arrow-div">></div><a href="">Internship</a></li>
+              <li><div class="list-arrow-div">></div><a href="">Publication</a></li>
+              <li><div class="list-arrow-div">></div><a href="">Press Releases</a></li>
+            </ul>
+          </div>
+
+          </div>
+           </div>
+      </div>
+      </div>
+    <div class="footer3" style="display: flex; width: 40%;">
+      <div class="footer3-part-1" style="border: 2px solid white;">
+      <h3 class="footer3-heading1" >Contact Us</h3>
+      <div class="message-icon">
+        <i class="fa-solid fa-envelope" style="color: #f2f6fd;"></i>
+        <p>NITI[AT]GOV[DOT]IN</p>
+      </div>
+    </div>
+      
+    <div class="footer3-heading2">
+      <div>  
+           <h3>Visitor Counter</h3>
+    </div>
+      <div> 
+        <p style="font-size: 1rem; margin-top: 15px;">
+          Total Visitor : 104166323
+        </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+   
+    </div>
+
+    <div class="last-footer">
+      Ownership Information : Website belongs to NITI AYOG |
+      <div class="last-footer-div"><i class="fa-regular fa-copyright" style="color: #f2f4f7; margin:;"></i>
+      
+    </div>
+   <p style="margin-left: 22px;">2023. All Rights Reserved With NITI AYOG , Government of India</p>
+  </div>
+   
+    </footer>
+
+
+
+    ///////////////////////////////////////////////////////////////////////
+    .footer2{
+        margin-top: 2px;
+        width: 70%;
+        height: 90%;
+        margin-left:auto;
+        
+        
+    }
+    .footer2-part-2-1
+    {
+    
+        width: 5%;
+        height: auto;
+    }
+    .footer2-part-2
+    {
+        width: 90%;
+        border: 2px solid white;
+    }
+    .footer-2-div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    
+    }
+    .footer2-part-2-1
+    {
+        display: flex;
+    }
+    
+    .footer2 img{
+        height: 100px;
+        width: 100px;
+    }
+    .footer2 h3{
+        color:#FFF;
+        margin-left: 5%;
+    }
+    
+    .footer2-list-1
+    {
+        position: relative;
+        right:8%;
+        left: 5%;
+        margin: 0px 15px ;
+    }
+    .footer2-list
+    {
+        list-style: none;
+    
+    }
+    .list-arrow-div
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+       font-weight: 800;
+    
+    }
+    .footer2-list li
+    {
+        margin:5px;
+        padding: 2px ;
+        color:white;
+        height: 20px;
+        margin-top:10px ;
+        font-family: 'Times New Roman', Times, serif;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer3{
+        border-right: 1px solid #FFF;
+        border-left: 1px solid #FFF;
+        right: 25%;
+        width: 15%;
+        position: relative;
+        float: right;
+        bottom: 8.7rem;
+    
+    }
+    .footer3-heading1
+    {
+        position: relative;
+        width: 100%;
+        color: #FFF; 
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        font-size: 1.8rem;
+    }
+    .message-icon
+    {
+        display: flex;
+        position: relative;
+        left: 10%;
+        top: 10%;
+        width: 20%;
+    }
+    .message-icon p{
+        color: #FFF;
+        margin-left: 5%;
+        text-wrap: wrap;
+        font-size: .75rem;
+    }
+    .footer3-heading2
+    {
+        position: relative;
+        color: #FFF; 
+        letter-spacing: 2px;
+        padding: 10px;
+        font-size: 1.8rem;
+        float: right;
+        width: 20%;
+        left: auto;
+    }
+    @media (max-width:768px)
+    {
+        .footer3-heading2
+        {
+        position: relative;
+        color: #FFF; 
+        letter-spacing: 2px;
+        padding: 10px;
+        font-size: 1rem;
+        float: right;
+        bottom: 8.9rem;
+        left: 35%;
+        }
+    
+        .footer3-heading1
+        {
+        position: relative;
+        width: 100%;
+        color: #FFF; 
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        font-size: 1rem;
+       }
+    
+    
+    }
+    .combo-footer2
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 8px;
+        border-bottom: 2px solid #FFFFFF83;
+        display: flex;
+    } 
+    .last-footer
+    {
+        width: 90%;
+        margin-left: 20%;text-align: center;
+        color: white;
+        display: flex;
+        position: relative;
+        bottom: 50px;
+    
+    }
+    .last-footer div{
+        width: 5px;
+    height: 5px;
+    }
+    .last-footer div i{
+    margin-left: 9px;
+    
+    }
+    .last-footer-div
+    {
+        display: flex;
+    }
+    

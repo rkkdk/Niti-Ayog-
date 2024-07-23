@@ -1,0 +1,1522 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; 
+}
+ body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.mainbox
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.topbar{
+    height: 20%;
+    background-color: #001944;
+    padding: 15px 0px 5px;
+    width: 100%;
+}
+.topbar1
+{
+    height:10%;
+    width: 100%;
+    padding: 0px 15px ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+}
+#flag
+{
+    height: 9px;
+}
+.nationalportal
+{
+    display: flex;
+    
+}
+#NPI{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.89rem;
+    margin-left: 5px;
+}
+#beti{
+    height: 75px;
+    
+   
+}
+#nitilogo
+{
+    height: 100px;
+    
+    margin :0px 50px;
+}
+#sitemap
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.sizechanger-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sizechanger{
+    font-size: 22px;
+    height: 20;
+    font-weight: 900;
+    background-color: #FFFFFF;
+    color: royalblue;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+.size{
+    display: flex;
+    justify-content: space-evenly;
+}
+/** main menu ,nav bar**/
+.topbar2
+{
+    height: 15%;
+}
+
+.navcontainer{
+height: 65px;
+background-color: #001944;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+li{
+    height: 25px;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+    font-weight: 800px;
+
+}
+.main menu{
+    display: flex;
+}
+.navcontainer-ul{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+/**herosection*/
+.herosection
+{
+    margin-top: 65px;
+}
+.image{
+      width: 100%;
+    position: relative;
+    
+}
+.arrow{
+    display: flex;
+    position:relative;
+}
+.arrowright{
+
+    background-color:black;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom :100%;
+    left: 80%;
+    cursor: pointer;
+}
+
+.arrowleft
+{
+    background-color:black;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom :70%;
+    left: 17%;
+    cursor: pointer;
+}
+.arrows:hover{
+    background-color: #7c6b6b;
+    
+}
+
+
+/** sliding css **/
+.frame{
+    width: 100%;
+    overflow:hidden ;
+}
+.slider{
+    display: flex;
+}
+
+.dotdiv{
+    height: 50px;
+    margin-top: 10px;
+}
+
+.section1{
+    width: 94%;
+    height: 20%;
+    margin-right: 3%;
+    margin-left: 3%;
+    
+    padding:21px 0px ;
+    
+    
+}
+
+.section1img-text{
+    display: flex;
+    justify-content: center;
+}
+
+.heading
+{
+    height: 5%;
+    width: 80%;
+    margin: 11.5px 0px 30px 0px;
+    position: relative;
+    left: 35%;
+    font-weight: 400;
+    font-size: 35px;
+    top: 10%;
+    z-index: 1;
+    text-shadow: 2px 2px 5px #684646cc;
+    display: inline-block;
+   font-family: 'Times New Roman', Times, serif;
+
+ 
+}
+
+.container
+{
+    width:17%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.section1image
+{
+    
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+
+}
+
+.text
+{
+    margin-top:15px ;
+    width: 95%;
+    color: #606060;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-weight: 500;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.arrowright1{
+
+    background-color:rgb(117, 103, 103);
+
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom :15%;
+    left: 80%;
+    z-index: 2;
+    cursor: pointer;
+}
+.arrowleft1
+{
+    background-color:rgb(117, 103, 103);
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom :15%;
+    right: 20%;
+    cursor: pointer;
+}
+.arrows1:hover{
+    background-color: #7c6b6b;
+    height: 10px;
+    width: 10px;
+    
+}
+.dotdiv2
+{
+    height: 80px;
+
+}
+/* section 2*/
+
+.button{
+    position: relative;
+    top: 2px;
+    padding: 1%;
+    margin: 0 auto;
+    border: 2px solid #0C4C69;
+    height :5%;
+    width: 57%;
+    display: flex;
+    word-spacing: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button a
+{
+    color: #0C4C69;
+}
+.button:hover
+{
+    background-color:#c69955;
+    border-color: #FFFFFF;
+    
+}
+
+
+.button a:hover{
+    color: #FFFFFF;
+}
+.section2{
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 21px 0px ;
+    
+}
+
+.heading-of-section-2{
+    height: 35px;
+    margin: 11.5px 0px 30px;
+    position: relative;
+    left: 45%;
+    font-weight: 400;
+    font-size: 35px;
+    top: 10%;
+    z-index: 1;
+    text-shadow: 2px 2px 5px #684646cc;
+    display: inline-block;
+   font-family: 'Times New Roman', Times, serif;
+
+
+}
+.section-2-part-1
+{
+ display: flex;
+ justify-content: space-evenly;
+
+}
+.section2container
+{
+    width: 13.4%;
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.section2container img 
+{
+    max-width: 90%;
+    height: 70%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+
+
+
+.section2container .text{
+    width: 95%;
+    text-align: center;
+    margin: 5px 0px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.section-2-part-2 ,.section-2-part-3 ,.section-2-part-4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:%;
+    
+}
+
+.article
+{
+width: 45%;  
+border: 2px solid rgb(248, 242, 242);
+box-shadow: 2PX 2PX 2PX rgb(249, 247, 247) ;
+border-radius: 30px;
+padding: 30px;
+position: relative;
+top: 50px;
+
+}
+
+
+ .article li
+{
+width: 100%;
+height: 8%;
+margin:0px 0px 8%;
+}
+ .article li .div
+{
+    margin-top: 1%;
+    font-size: 0.89rem;
+    line-height: 22px;
+}
+
+ li .div a{
+    color: #001944;
+}
+.div a :hover
+{
+ color: rgb(209, 95, 43);
+}
+
+.article-button{
+    position: relative;
+    top: 2px;
+    padding: 1%;
+    margin: 10px ;
+    border: 2px solid #0C4C69;
+    border-radius: 5px;
+    height :5%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    word-spacing: 5px;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.article-button a
+{
+    color: #0C4C69;
+}
+
+.article-button:hover
+{
+    background-color:#c69955;
+    border-color: #FFFFFF;
+  
+}
+
+.article-button a:hover
+{
+    color: #FFFFFF;
+}
+/** section4 **/
+
+.section4{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    display: ;
+    justify-content: space-evenly;
+
+}
+
+ .section4  .heading
+{ 
+margin: 3%  8%;
+}
+.section-4-img-text-container
+{
+    display: flex;
+}
+
+.section-4-container
+{
+    width: 17.2%;
+    border: 2 px solid aqua;
+    
+
+}
+
+.section-4-container img{
+    width: 90%;
+    border: 2px solid gray;
+}
+.section-4-img-text{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.text-2 a
+{
+    color: #26292e;
+}
+
+
+/** footer **/
+footer
+{
+    width: 100%;
+    position: sticky;
+    background-color: #001944;
+    margin-top: 5%;
+    height: 20%;
+}
+.footer1
+{
+width: 90%;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 5%;
+height:25%; 
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-bottom:2px solid #ffffff83;
+flex-wrap: wrap;
+
+ 
+}
+.footer1-list-item 
+{
+    font-size: 0.8em;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 1.5%;
+    flex-wrap: wrap;
+    
+}
+
+.footer1 li{
+    padding: 0px 10px;
+}
+
+
+/*footer 2*/
+
+@media (min-width:890px)
+{
+
+
+    .topbar{
+        height: 20%;
+        background-color: #001944;
+        padding: 15px 0px 5px;
+        width: 100%;
+    }
+    .topbar1
+    {
+        height:10%;
+        width: 100%;
+        padding: 0px 15px ;
+        display: flex;
+        justify-content:;
+        flex-wrap: wrap; 
+        align-items: center;  
+    }
+    #flag
+    {
+        height: 9px;
+        
+    }
+    .nationalportal
+    {
+        display: flex;
+        width: 20%;
+        height: 10%;
+        
+    }
+    #NPI{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 0.89rem;
+        margin-left: 5px;
+    }
+    .beti
+    {
+        width: 15%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    #beti{
+        height: 5rem;
+        margin-right: 5%;
+        
+       
+    }
+    .ashokstambh
+    {
+        width: 20%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        margin-right: 15%;
+    }
+    #nitilogo
+    {
+        height: 100px;
+        margin :0px 50px 0px 0px;
+    }
+    .sitemap-sizechanger-div
+    {
+        display: flex;
+        width: 20%;
+        height: 10%;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    #sitemap
+    {
+        width: 5%;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 0.9rem;
+        margin-left: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+    .sizechanger-div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        height: 10%;
+    
+    }
+    
+    .sizechanger{
+        font-size: 22px;
+        height: ;
+        font-weight: 900;
+        background-color: #FFFFFF;
+        color: royalblue;
+        border-radius: 3px;
+        margin-left: 3px;
+        
+    }
+    .size{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /** main menu ,nav bar**/
+    .topbar2
+    {
+        height: 15%;
+        margin-top: 4%;
+    }
+    
+    .navcontainer{
+    height: 100%;
+    background-color: #001944;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .navcontainer-ul li {
+        height: 25px;
+        margin-left: 20px;
+        font-size: 1.2rem;
+        font-family: Arial, sans-serif;
+        font-weight: 800px;
+    
+    }
+    .main menu{
+        display: flex;
+    }
+    .navcontainer-ul{
+        margin-left: 30px;
+        display: ;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    
+.section-2-part-2 ,.section-2-part-3 ,.section-2-part-4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:%;
+    
+}
+
+
+
+
+
+.footer2
+{
+    width: 90%;
+    margin-left:5% ;
+    height: 60%;
+    display: flex;
+}
+
+.footer2-part-1
+{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin: 2% 0%;
+    align-items: center;
+    border-right: 2px solid white;
+}
+.footer-logo-img 
+{
+    width: 25%;
+    height: auto;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    
+}
+.footer-2-part-1-list
+{   width: 90%;
+    margin-left: 1%;
+    display: flex;
+    height: 100%;
+    align-items: ;
+
+}
+.footer2-divv
+{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-top: ;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-2-part-1-list li 
+{
+      margin: 5px 0px;
+}
+
+
+.footer-2-part-1-list li a
+{
+    line-height: 1em;
+    list-style:square;
+    size: 2px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-wrap: wrap;
+    
+}
+.list2-div
+{
+    margin-left: 2%;
+}
+
+
+.footer2-part2
+{
+ display: flex;
+    width:20%;
+    margin: 5px;
+}
+
+.footer2-part2-section1 , .footer2-part2-section2
+{
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:2px solid white ;
+
+}
+.icon-text-div
+{
+    border: 2px solid pink;
+    margin: 60px 0px;
+    
+}
+.icon-text-div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    font-size: 1rem;
+}
+
+
+}
+
+
+
+
+@media (min-width:576px)
+{
+
+    /*header responsive*/
+
+
+    .mainbox
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.topbar{
+    height: 20%;
+    background-color: #001944;
+    padding: 15px 0px 5px;
+    width: 100%;
+}
+.topbar1
+{
+    height:10%;
+    width: 100%;
+    padding: 0px 15px ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    align-items: center;  
+}
+#flag
+{
+    height: 9px;
+    
+}
+.nationalportal
+{
+    display: flex;
+    width: 20%;
+    height: 10%;
+    
+}
+#NPI{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.89rem;
+    margin-left: 5px;
+}
+.beti
+{
+    width: 15%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#beti{
+    height: 5rem;
+    margin-right: 20px;
+    
+   
+}
+.ashokstambh
+{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+#nitilogo
+{
+    height: 100px;
+    margin :0px 15% 0px 0px;
+}
+.sitemap-sizechanger-div
+{
+    display: flex;
+    width: 20%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#sitemap
+{
+    width: 5%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.sizechanger-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
+
+}
+
+.sizechanger{
+    font-size: 22px;
+    height: ;
+    font-weight: 900;
+    background-color: #FFFFFF;
+    color: royalblue;
+    border-radius: 3px;
+    margin-left: 3px;
+    
+}
+.size{
+    display: flex;
+    justify-content: space-evenly;
+}
+/** main menu ,nav bar**/
+.topbar2
+{
+    height: 15%;
+}
+
+.navcontainer{
+height: 100%;
+background-color: #001944;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.navcontainer-ul li {
+    height: 25px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    font-weight: 800px;
+
+}
+.main menu{
+    display: flex;
+}
+.navcontainer-ul{
+    margin-left: 30px;
+    display: ;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.section-2-part-2 ,.section-2-part-3 ,.section-2-part-4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:2%;
+    
+}
+
+
+
+
+
+
+/* footer2-responsive */
+
+
+
+    .footer2
+    {
+        width: 90%;
+    }
+    .footer2-part-1
+    {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+    }
+    .footer-logo-img 
+{
+    width: 20%;
+    margin: 5%;
+}
+.footer-logo-img img
+{
+    width: 90%;
+    height: 90%;
+    margin: 3px;
+}
+.footer-2-part-1-list
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+.footer2-divv
+{
+    display: flex;
+    margin: 5% 0px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.list2-div
+{
+    width: 40%;
+    margin: 5px;
+}
+
+.footer-2-part-1-list li
+{
+    line-height: 5%;
+    list-style:square;
+    size: 2px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-wrap: wrap;
+    
+}
+.footer2-part2
+{
+    color: #FFFFFF;
+    width: 98%;
+    display: flex;
+}
+
+.footer2-part2
+{
+   display: flex;
+    width:100%;
+    margin: px;
+}
+
+.footer2-part2-section1 , .footer2-part2-section2
+{
+    width: 50%;
+    color: #FFFFFF;
+
+}
+.icon-text-div
+{
+    border: 2px solid pink;
+    margin: 0px 0px;
+}
+.icon-text-div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    font-size: 0.8rem;
+}
+
+
+
+}
+
+
+@media(max-width:440px)
+{
+    #flag
+    {
+        height: 150%;
+        width: 10%;
+        
+    }   
+
+    .nationalportal
+     {
+         display: flex;
+         justify-content: center;
+         width: 15%;
+        
+         height: 10%;
+}
+.topbar
+{
+
+    width: 100%;
+    background-color: #001944;
+
+}
+.topbar1
+{
+    margin-bottom: 5%;
+    gap: 2%;
+}
+.topbar2
+{
+    margin-top: 10px;
+}
+.navcontainer-ul li {
+    height: 25%;
+    font-size: 0.7rem;
+    font-family: Arial, sans-serif;
+    font-weight: 800px;
+
+}
+.navcontainer-ul{
+    margin-left: 30px;
+    
+}
+.navcontainer
+{
+    margin-left: 0px;
+}
+.beti
+{
+    width: 10%;
+    margin-right: 10%;
+}
+.ashokstambh
+{
+    width: 40%;
+}
+.sizechanger{
+    font-size: 0.5em;
+    height: 10%;
+    font-weight: 500;
+    color: royalblue;
+    border-radius: 3px;
+    margin-left: 3px;
+    
+}
+
+.heading
+{
+    height: 5%;
+    width: 80%;
+    margin: 11.5px 0px 30px 0px;
+    position: relative;
+    left: 20%;
+    font-weight: 400;
+    font-size: 1.5em;
+    top: 10%;
+    z-index: 1;
+    text-shadow: 2px 2px 5px #684646cc;
+    display: inline-block;
+   font-family: 'Times New Roman', Times, serif;
+
+ 
+}
+.text
+{
+    margin-top:15px ;
+    width: 95%;
+    color: #606060;
+    font-size: .7em;
+    line-height: 1.5;
+    font-weight: 500;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading-of-section-2{
+    height: 5%;
+    margin: 11.5px 0px 30px;
+    position: relative;
+    left: 45%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    top: 10%;
+    z-index: 1;
+    text-shadow: 2px 2px 5px #684646cc;
+    display: inline-block;
+   font-family: 'Times New Roman', Times, serif;
+
+
+}
+.section2container .text-2{
+    width: 95%;
+    text-align:center ;
+    margin: 5px 0px;
+    text-decoration: none;
+    font-size: 0.6rem;
+     text-wrap: wrap;
+    position: relative;
+    
+}
+.section-2-part-2 ,.section-2-part-3 ,.section-2-part-4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    
+}
+
+
+
+
+
+
+
+
+}
+@media (max-width:576px)
+{
+     /*header responsive*/
+
+
+     .mainbox
+     {
+         max-width: 100%;
+         overflow-x: hidden;
+     }
+     .topbar{
+         height: 35%;
+         background-color: #001944;
+         padding: 15px 0px 5px;
+         width: 100%;
+     }
+     .topbar1
+     {
+         height:10%;
+         width: 100%;
+         padding: 0px 15px ;
+         display: flex;
+        margin-left: ;
+         flex-wrap: wrap; 
+         align-items: center;  
+         margin-bottom: 2%;
+         
+     }
+     #flag
+     {
+         height: 100%;
+         width: 50%;
+         
+     }
+     .nationalportal
+     {
+         display: flex;
+         justify-content: center;
+         width: 20%;
+         height: 10%;
+         
+     }
+     #NPI{
+        display: none;
+         text-decoration: none;
+         color: #FFFFFF;
+         font-size: 0.89rem;
+         margin-left: 0px;
+     }
+     .beti
+     {
+         width: 15%;
+         height: 10%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     
+     }
+     
+     #beti{
+        width: 100%;
+}
+     .ashokstambh
+     {
+         width: 20%;
+         height: 5%;
+         margin-right: 1rem;
+         display: flex;
+         justify-content: center;
+     }
+     #nitilogo
+     {
+    
+     }
+     .sitemap-sizechanger-div
+     {
+         display: flex;
+         width: 20%;
+         height: 10%;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     #sitemap
+     {
+        display: none;
+         width: 5%;
+         text-decoration: none;
+         color: #FFFFFF;
+         font-size: 0.9rem;
+         margin-left: 10px;
+     }
+     a{
+         text-decoration: none;
+     }
+     li a{
+         text-decoration: none;
+         color: white;
+     }
+     .sizechanger-div
+     {
+         display: ;
+         flex-wrap: wrap;
+         justify-content: center;
+         width: 100%;
+         height: 10%;
+     
+     }
+     
+     .sizechanger {
+         font-size: 1em;
+         height: 100%;
+         font-weight: 900;
+         background-color: #FFFFFF;
+         color: royalblue;
+         border-radius: 3px;
+         margin-left: 3px;
+         
+     }
+     .size{
+         display: flex;
+         justify-content: space-evenly;
+     }
+     /** main menu ,nav bar**/
+     .topbar2
+     {
+         display: flex;
+         justify-content: start;
+         height: 25%;
+     }
+     
+     .navcontainer{
+     height: 65px;
+     background-color: #001944;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     }
+     .navcontainer-ul li {
+         height: 25%;
+         margin-left: 20px;
+         font-size: 0.9rem;
+         font-family: Arial, sans-serif;
+         font-weight: 800px;
+     
+     }
+     .main menu{
+         display: flex;
+     }
+     .navcontainer-ul{
+         margin-left: 30px;
+         display: ;
+         justify-content: center;
+         align-items: center;
+         list-style: none;
+         flex-wrap: wrap;
+     }
+     
+     .section2container .text-2{
+        width: 95%;
+        text-align:center ;
+        margin: 5px 0px;
+        text-decoration: none;
+        font-size: 0.75rem;
+         text-wrap: wrap;
+        position: relative;
+        
+    }
+     
+.section-2-part-2 ,.section-2-part-3 ,.section-2-part-4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:10%;
+    
+}
+
+     
+
+
+
+
+
+/*footer responsive*/
+
+.footer2
+{
+    width: 90%;
+}
+.footer2-part-1
+{
+    width: 98%;
+    margin: 1%;
+    display: flex;
+}
+.footer-logo-img 
+{
+    width: 30%;
+    height: 100px;
+    margin: 3px;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+}
+.footer-logo-img img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-2-part-1-list li
+{
+    width: 95%;
+    line-height: 2rem;
+    list-style:square;
+    size: 2px;
+    color: #FFFFFF;
+    font-size: .8rem;
+    text-wrap: wrap;
+    
+}
+.footer-2-part-1-list
+{
+    width: 100%;
+    margin-left: 1%; 
+    display: flex;
+    height: auto;
+
+}
+
+.footer2-part2
+{
+    color: #FFFFFF;
+    width: 98%;
+    display: flex;
+}
+
+.footer2-part2
+{
+ display: flex;
+    width:98%;
+    margin: 5px;
+}
+
+.footer2-part2-section1 , .footer2-part2-section2
+{
+    width: 50%;
+    color: #FFFFFF;
+
+}
+.icon-text-div
+{
+    border: 2px solid pink;
+    margin: 60px 0px;
+}
+.icon-text-div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    font-size: 0.8rem;
+}
+
+
+}
+
+
+
+
+
